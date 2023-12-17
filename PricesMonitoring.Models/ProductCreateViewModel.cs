@@ -2,7 +2,7 @@
 
 public class ProductCreateViewModel
 {
-    public string? Link { get; set; }
+    public string? Url { get; set; }
 
     public ShopViewModel Shop { get; set; } = null!;
 }

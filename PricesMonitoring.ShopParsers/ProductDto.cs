@@ -1,19 +1,14 @@
-﻿namespace PricesMonitoring.Entities;
+﻿namespace PricesMonitoring.ShopParsers;
 
 using System.ComponentModel.DataAnnotations;
 
-public class Product : IdentityEntity
+public class ProductDto
 {
     [Required]
     public string Name { get; set; } = null!;
-
-    public string? Url { get; set; }
-
+    
     [Required]
     public decimal Price { get; set; }
 
     public decimal? DiscountedPrice { get; set; }
-
-    [Required]
-    public Shop Shop { get; set; } = null!;
 }

@@ -29,7 +29,7 @@ public class ProductsService : IProductsService
         }
         
         var products = await _productsRepository.GetAllItemsAsync();
-        if (products.Any(product => product.Link == productCreateModel.Link))
+        if (products.Any(product => product.Url == productCreateModel.Url))
         {
             throw new InvalidDataException("Данный товар уже был добавлен.");
         }

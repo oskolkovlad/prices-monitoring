@@ -6,7 +6,7 @@ public class ProductReadViewDto
 
     public string Name { get; set; } = null!;
 
-    public string? Link { get; set; }
+    public string? Url { get; set; }
 
     public decimal Price { get; set; }
 
