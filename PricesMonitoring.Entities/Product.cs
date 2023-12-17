@@ -1,24 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿namespace PricesMonitoring.Entities;
 
-namespace PricesMonitoring.Entities
+using System.ComponentModel.DataAnnotations;
+
+public class Product : IdentityEntity
 {
-    public class Product
-    {
-        [Key]
-        [Required]
-        public int Id { get; set; }
+    [Required]
+    public string Name { get; set; } = null!;
 
-        [Required]
-        public string Name { get; set; } = null!;
+    public string? Link { get; set; }
 
-        public string? Link { get; set; }
+    [Required]
+    public decimal Price { get; set; }
 
-        [Required]
-        public decimal Price { get; set; }
+    public decimal? DiscountedPrice { get; set; }
 
-        public decimal? DiscountedPrice { get; set; }
-
-        [Required]
-        public Shop Shop { get; set; } = null!;
-    }
+    [Required]
+    public Shop Shop { get; set; } = null!;
 }
