@@ -1,4 +1,4 @@
-﻿namespace PricesMonitoring.Dto;
+﻿namespace PricesMonitoring.Models;
 
 public class ProductReadViewDto
 {
@@ -12,5 +12,5 @@ public class ProductReadViewDto
 
     public decimal? DiscountedPrice { get; set; }
 
-    public ShopViewDto Shop { get; set; } = null!;
+    public ShopViewModel Shop { get; set; } = null!;
 }

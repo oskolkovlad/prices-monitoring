@@ -1,12 +1,12 @@
 ﻿namespace PricesMonitoring.Services;
 
-using Dto;
+using Models;
 
 public interface IProductsService
 {
     Task<List<ProductReadViewDto>> GetProducts();
 
-    Task<ProductReadViewDto> AddProduct(ProductCreateViewDto productCreateDto);
+    Task<ProductReadViewDto> AddProduct(ProductCreateViewModel productCreateModel);
 
     Task DeleteProduct(int? id);
 }

@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PricesMonitoring.Repositori
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PricesMonitoring.Services", "PricesMonitoring.Services\PricesMonitoring.Services.csproj", "{FD54B924-1830-452D-A88C-4BB30AD176C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricesMonitoring.Dto", "PricesMonitoring.Dto\PricesMonitoring.Dto.csproj", "{7D53115C-37D4-40AB-B1DB-08B10C02483B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricesMonitoring.Models", "PricesMonitoring.Models\PricesMonitoring.Models.csproj", "{7D53115C-37D4-40AB-B1DB-08B10C02483B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricesMonitoring.Web.UI", "PricesMonitoring.Web.UI\PricesMonitoring.Web.UI.csproj", "{1F9DCA06-4BB0-41E8-A877-88802BE99557}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7D53115C-37D4-40AB-B1DB-08B10C02483B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D53115C-37D4-40AB-B1DB-08B10C02483B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D53115C-37D4-40AB-B1DB-08B10C02483B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9DCA06-4BB0-41E8-A877-88802BE99557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9DCA06-4BB0-41E8-A877-88802BE99557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9DCA06-4BB0-41E8-A877-88802BE99557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9DCA06-4BB0-41E8-A877-88802BE99557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

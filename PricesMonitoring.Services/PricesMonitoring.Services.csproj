@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PricesMonitoring.Dto\PricesMonitoring.Dto.csproj" />
+    <ProjectReference Include="..\PricesMonitoring.Models\PricesMonitoring.Models.csproj" />
     <ProjectReference Include="..\PricesMonitoring.Entities\PricesMonitoring.Entities.csproj" />
     <ProjectReference Include="..\PricesMonitoring.Repositories\PricesMonitoring.Repositories.csproj" />
   </ItemGroup>
