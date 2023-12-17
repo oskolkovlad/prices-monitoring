@@ -1,4 +1,4 @@
-﻿namespace PricesMonitoring.ShopParsers.WebDriver;
+﻿namespace PricesMonitoring.Parsers.WebDriver;
 
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;

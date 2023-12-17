@@ -1,4 +1,4 @@
-﻿namespace PricesMonitoring.ShopParsers;
+﻿namespace PricesMonitoring.Parsers;
 
 using WebDriver;
 

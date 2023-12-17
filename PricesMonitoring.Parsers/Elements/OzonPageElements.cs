@@ -1,4 +1,4 @@
-﻿namespace PricesMonitoring.ShopParsers.Elements;
+﻿namespace PricesMonitoring.Parsers.Elements;
 
 using OpenQA.Selenium;
 
