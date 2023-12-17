@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricesMonitoring.Models", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricesMonitoring.Web.UI", "PricesMonitoring.Web.UI\PricesMonitoring.Web.UI.csproj", "{1F9DCA06-4BB0-41E8-A877-88802BE99557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricesMonitoring.ShopParsers", "PricesMonitoring.ShopParsers\PricesMonitoring.ShopParsers.csproj", "{50472444-55A9-468E-A6B7-20D88D95E0D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricesMonitoring.Parsers", "PricesMonitoring.Parsers\PricesMonitoring.Parsers.csproj", "{CFF2609B-3883-4736-B4F0-49040F20CB5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{1F9DCA06-4BB0-41E8-A877-88802BE99557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F9DCA06-4BB0-41E8-A877-88802BE99557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F9DCA06-4BB0-41E8-A877-88802BE99557}.Release|Any CPU.Build.0 = Release|Any CPU
-		{50472444-55A9-468E-A6B7-20D88D95E0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50472444-55A9-468E-A6B7-20D88D95E0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50472444-55A9-468E-A6B7-20D88D95E0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50472444-55A9-468E-A6B7-20D88D95E0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF2609B-3883-4736-B4F0-49040F20CB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF2609B-3883-4736-B4F0-49040F20CB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF2609B-3883-4736-B4F0-49040F20CB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF2609B-3883-4736-B4F0-49040F20CB5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
