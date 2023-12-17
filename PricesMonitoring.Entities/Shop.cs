@@ -13,5 +13,7 @@ namespace PricesMonitoring.Entities
 
         [Required]
         public string Code { get; set; } = null!;
+
+        public ICollection<Product> Products { get; set; } = new List<Product>();
     }
 }
