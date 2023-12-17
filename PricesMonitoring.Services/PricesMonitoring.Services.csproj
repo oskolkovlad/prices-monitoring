@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PricesMonitoring.Dto\PricesMonitoring.Dto.csproj" />
+    <ProjectReference Include="..\PricesMonitoring.Entities\PricesMonitoring.Entities.csproj" />
+    <ProjectReference Include="..\PricesMonitoring.Repositories\PricesMonitoring.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>

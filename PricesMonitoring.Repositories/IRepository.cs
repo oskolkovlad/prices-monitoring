@@ -18,7 +18,7 @@ public interface IRepository<TEntity> where TEntity : IdentityEntity
 
     void DeleteItemById(int id);
 
-    Task DeleteItemByIdAsync(int id);
+    Task RemoveItemByIdAsync(int id);
 
     void UpdateItem(TEntity? entity);
 

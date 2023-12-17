@@ -50,7 +50,7 @@ public class ProductsRepository : IProductsRepository
         }
     }
 
-    public async Task DeleteItemByIdAsync(int id)
+    public async Task RemoveItemByIdAsync(int id)
     {
         var product = await GetItemByIdAsync(id);
         if (product is not null)
